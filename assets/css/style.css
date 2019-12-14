@@ -1,5 +1,15 @@
+.container{
 
-.ul {
+	width: 500px;
+	height: 500px;
+	background: white;
+	margin: 10px auto;
+}
+.center{
+	padding: 20px;
+	text-align: center;
+}
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -7,11 +17,11 @@
   background-color: #333;
 }
 
-.li {
+li {
   float: left;
 }
 
-.li a {
+li a {
   display: block;
   color: white;
   text-align: center;
@@ -19,6 +29,6 @@
   text-decoration: none;
 }
 
-.li a:hover {
-  background-color: #111;
+li a:hover {
+  background-color: green;
 }
